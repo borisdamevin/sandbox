@@ -1,0 +1,8 @@
+## Files
+*.map
+*.orig
+
+## Folders
+/.idea
+/.nuxt
+/node_modules
