@@ -6,10 +6,10 @@
         "node": ">=10.0.0",
         "npm": ">=6.0.0"
     },
-    "devDependencies": {},
-    "dependencies": {
+    "devDependencies": {
         "nuxt": "^2.11.0",
         "sass": "^1.25.0",
         "sass-loader": "^8.0.2"
-    }
+    },
+    "dependencies": {}
 }
