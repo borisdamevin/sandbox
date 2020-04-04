@@ -8,8 +8,8 @@
         "npm": ">=6.0.0"
     },
     "devDependencies": {
-        "@types/node": "^13.9.3",
-        "nuxt": "^2.12.0",
+        "@types/node": "^13.11.0",
+        "nuxt": "^2.12.2",
         "sass": "^1.26.3",
         "sass-loader": "^8.0.2"
     },
