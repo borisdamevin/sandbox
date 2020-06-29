@@ -8,7 +8,7 @@
         "npm": ">=6.0.0"
     },
     "devDependencies": {
-        "nuxt": "^2.12.2",
+        "nuxt": "^2.13.2",
         "sass": "^1.26.8",
         "sass-loader": "^8.0.2"
     },
