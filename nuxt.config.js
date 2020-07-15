@@ -1,10 +1,13 @@
 module.exports = {
     server: {
-        port: 8080,
+        port: 8080
     },
 
+    loading: false,
+    target: 'static',
+
     head: {
-        titleTemplate: 'Sandbox',
+        titleTemplate: '%s - Sandbox',
 
         meta: [
             {
@@ -13,7 +16,12 @@ module.exports = {
 
             {
                 name: 'viewport',
-                content: 'width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover'
+                content: 'width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+            },
+
+            {
+                name: 'robots',
+                content: 'noindex, nofollow'
             },
 
             {
@@ -37,9 +45,11 @@ module.exports = {
         '~/assets/sass/app.scss'
     ],
 
-    router: {},
-
     plugins: [],
+
+    modules: [],
+
+    router: {},
 
     build: {}
 };
