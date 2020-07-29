@@ -45,11 +45,11 @@ module.exports = {
         '~/assets/sass/app.scss'
     ],
 
+    router: {},
+
     plugins: [],
 
     modules: [],
-
-    router: {},
 
     build: {}
 };
